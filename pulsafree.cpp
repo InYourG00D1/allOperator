@@ -30,7 +30,7 @@ cout <<"Pilih Operator"<<endl;
 cout << "1.Indosat     4.Axis" <<endl;
 cout << "2.Tree        5.XL"<<endl;
 cout << "3.Telkomsel   6.Smartfren" <<endl; 
-cout << "0.Out"
+cout << "0.Out" <<endl;
 cout << ": ";
 cin >> x;
  switch (x){
@@ -91,6 +91,7 @@ case 0:
 cout << "Terimakasih Sudah Install Tool Ini" <<endl;
 cout << "Jangan Lupa Dishare :)" <<endl;
 cout << "Bye" <<endl;
+break;
  	default:
         cout << "Maaf Tidak Terdaftar" <<endl;
  }
